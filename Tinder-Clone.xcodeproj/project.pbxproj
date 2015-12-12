@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B68E7A0CD03A47DEEBA2337 /* Pods_Tinder_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CC1D7AB6B21646A58461FF /* Pods_Tinder_Clone.framework */; };
+		0E2F03DA1C1B233E00B7913C /* fblogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F03D91C1B233E00B7913C /* fblogin.png */; };
+		0E2F03DC1C1B448F00B7913C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F03DB1C1B448F00B7913C /* SignUpViewController.swift */; };
+		0EBAF9BB1C18AA26004248DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF9BA1C18AA26004248DE /* AppDelegate.swift */; };
+		0EBAF9BD1C18AA26004248DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF9BC1C18AA26004248DE /* ViewController.swift */; };
+		0EBAF9C01C18AA26004248DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9BE1C18AA26004248DE /* Main.storyboard */; };
+		0EBAF9C21C18AA26004248DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9C11C18AA26004248DE /* Assets.xcassets */; };
+		0EBAF9C51C18AA26004248DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9C31C18AA26004248DE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E2F03D91C1B233E00B7913C /* fblogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogin.png; sourceTree = "<group>"; };
+		0E2F03DB1C1B448F00B7913C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0EBAF9B71C18AA26004248DE /* Tinder-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBAF9BA1C18AA26004248DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EBAF9BC1C18AA26004248DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EBAF9BF1C18AA26004248DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EBAF9C11C18AA26004248DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EBAF9C41C18AA26004248DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EBAF9C61C18AA26004248DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C3D73D6132EB60A29D24C5 /* Pods-Tinder-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder-Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone.release.xcconfig"; sourceTree = "<group>"; };
+		83CC1D7AB6B21646A58461FF /* Pods_Tinder_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14C4C105630697BF346EFD9 /* Pods-Tinder-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder-Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EBAF9B41C18AA26004248DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B68E7A0CD03A47DEEBA2337 /* Pods_Tinder_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2F03D81C1B231F00B7913C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E2F03D91C1B233E00B7913C /* fblogin.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0EBAF9AE1C18AA25004248DE = {
+			isa = PBXGroup;
+			children = (
+				0E2F03D81C1B231F00B7913C /* Images */,
+				0EBAF9B91C18AA26004248DE /* Tinder-Clone */,
+				0EBAF9B81C18AA26004248DE /* Products */,
+				B88A895BD92F80F012DA66E0 /* Pods */,
+				356DDA7C4482C27B2C4C4AD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EBAF9B81C18AA26004248DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF9B71C18AA26004248DE /* Tinder-Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EBAF9B91C18AA26004248DE /* Tinder-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF9CE1C18AAC9004248DE /* Controllers */,
+				0EBAF9CD1C18AAB8004248DE /* Views */,
+				0EBAF9CC1C18AA65004248DE /* Supporting Files */,
+				0EBAF9BA1C18AA26004248DE /* AppDelegate.swift */,
+				0EBAF9C11C18AA26004248DE /* Assets.xcassets */,
+			);
+			path = "Tinder-Clone";
+			sourceTree = "<group>";
+		};
+		0EBAF9CC1C18AA65004248DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF9C61C18AA26004248DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EBAF9CD1C18AAB8004248DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF9BE1C18AA26004248DE /* Main.storyboard */,
+				0EBAF9C31C18AA26004248DE /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0EBAF9CE1C18AAC9004248DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF9BC1C18AA26004248DE /* ViewController.swift */,
+				0E2F03DB1C1B448F00B7913C /* SignUpViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		356DDA7C4482C27B2C4C4AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CC1D7AB6B21646A58461FF /* Pods_Tinder_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B88A895BD92F80F012DA66E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B14C4C105630697BF346EFD9 /* Pods-Tinder-Clone.debug.xcconfig */,
+				42C3D73D6132EB60A29D24C5 /* Pods-Tinder-Clone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EBAF9B61C18AA26004248DE /* Tinder-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBAF9C91C18AA26004248DE /* Build configuration list for PBXNativeTarget "Tinder-Clone" */;
+			buildPhases = (
+				F98CFD27224F0169B11BD027 /* Check Pods Manifest.lock */,
+				0EBAF9B31C18AA26004248DE /* Sources */,
+				0EBAF9B41C18AA26004248DE /* Frameworks */,
+				0EBAF9B51C18AA26004248DE /* Resources */,
+				A54242EABD806F1F85750B03 /* Embed Pods Frameworks */,
+				6033771DF62AE7050BC9BB5B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tinder-Clone";
+			productName = "Tinder-Clone";
+			productReference = 0EBAF9B71C18AA26004248DE /* Tinder-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EBAF9AF1C18AA25004248DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FlashBolt;
+				TargetAttributes = {
+					0EBAF9B61C18AA26004248DE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 924B833ESM;
+					};
+				};
+			};
+			buildConfigurationList = 0EBAF9B21C18AA25004248DE /* Build configuration list for PBXProject "Tinder-Clone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EBAF9AE1C18AA25004248DE;
+			productRefGroup = 0EBAF9B81C18AA26004248DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EBAF9B61C18AA26004248DE /* Tinder-Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EBAF9B51C18AA26004248DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBAF9C51C18AA26004248DE /* LaunchScreen.storyboard in Resources */,
+				0EBAF9C21C18AA26004248DE /* Assets.xcassets in Resources */,
+				0EBAF9C01C18AA26004248DE /* Main.storyboard in Resources */,
+				0E2F03DA1C1B233E00B7913C /* fblogin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6033771DF62AE7050BC9BB5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54242EABD806F1F85750B03 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98CFD27224F0169B11BD027 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBAF9B31C18AA26004248DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2F03DC1C1B448F00B7913C /* SignUpViewController.swift in Sources */,
+				0EBAF9BD1C18AA26004248DE /* ViewController.swift in Sources */,
+				0EBAF9BB1C18AA26004248DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EBAF9BE1C18AA26004248DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBAF9BF1C18AA26004248DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EBAF9C31C18AA26004248DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBAF9C41C18AA26004248DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EBAF9C71C18AA26004248DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EBAF9C81C18AA26004248DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EBAF9CA1C18AA26004248DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14C4C105630697BF346EFD9 /* Pods-Tinder-Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tinder-Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flashbolt.TinderClone2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EBAF9CB1C18AA26004248DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C3D73D6132EB60A29D24C5 /* Pods-Tinder-Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tinder-Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flashbolt.TinderClone2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBAF9B21C18AA25004248DE /* Build configuration list for PBXProject "Tinder-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBAF9C71C18AA26004248DE /* Debug */,
+				0EBAF9C81C18AA26004248DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EBAF9C91C18AA26004248DE /* Build configuration list for PBXNativeTarget "Tinder-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBAF9CA1C18AA26004248DE /* Debug */,
+				0EBAF9CB1C18AA26004248DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EBAF9AF1C18AA25004248DE /* Project object */;
+}
