@@ -15,11 +15,13 @@ class SignUpViewController: UIViewController {
     @IBOutlet var profileImage: UIImageView!
     
     @IBOutlet var interestedInWomen: UISwitch!
+    
     @IBAction func signUp(sender: AnyObject) {
         PFUser.currentUser()?["interestedInWomen"] = interestedInWomen.on
         PFUser.currentUser()?.saveInBackground()
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,7 +48,7 @@ class SignUpViewController: UIViewController {
                         
                         let imageFile:PFFile = PFFile(data: data)!
                         
-                        PFUser.currentUser()?["imageFile"] = imageFile
+                        PFUser.currentUser()?["image"] = imageFile
                         
                         PFUser.currentUser()?.saveInBackground()
                         

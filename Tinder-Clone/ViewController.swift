@@ -21,8 +21,12 @@ class ViewController: UIViewController {
                 if let error = error {
                     print(error)
                 } else {
-                    if let _ = user {
-                        self.performSegueWithIdentifier("showSignInScreen", sender: self)
+                    if let user = user {
+                        if let _ = user["interestedInWomen"] {
+                            self.performSegueWithIdentifier("logUserIn", sender: self)
+                        } else {
+                            self.performSegueWithIdentifier("showSignInScreen", sender: self)
+                    }
                 }
             }
         }
@@ -40,10 +44,12 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(animated: Bool) {
-        /*PFUser.logOut();*/
-        
         if let _ = PFUser.currentUser()?.username {
-            performSegueWithIdentifier("showSignInScreen", sender: self)
+            if let _ = PFUser.currentUser()?["interestedInWomen"] {
+                performSegueWithIdentifier("logUserIn", sender: self)
+            } else {
+                performSegueWithIdentifier("showSignInScreen", sender: self)
+            }
         }
         
     }
