@@ -15,6 +15,7 @@
 		0EBAF9C01C18AA26004248DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9BE1C18AA26004248DE /* Main.storyboard */; };
 		0EBAF9C21C18AA26004248DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9C11C18AA26004248DE /* Assets.xcassets */; };
 		0EBAF9C51C18AA26004248DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF9C31C18AA26004248DE /* LaunchScreen.storyboard */; };
+		F46542A81C212AB800734365 /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46542A71C212AB800734365 /* SwipingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		42C3D73D6132EB60A29D24C5 /* Pods-Tinder-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder-Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone.release.xcconfig"; sourceTree = "<group>"; };
 		83CC1D7AB6B21646A58461FF /* Pods_Tinder_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14C4C105630697BF346EFD9 /* Pods-Tinder-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder-Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder-Clone/Pods-Tinder-Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		F46542A71C212AB800734365 /* SwipingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0EBAF9BE1C18AA26004248DE /* Main.storyboard */,
+				F46542A71C212AB800734365 /* SwipingViewController.swift */,
 				0EBAF9C31C18AA26004248DE /* LaunchScreen.storyboard */,
 			);
 			name = Views;
@@ -252,6 +255,7 @@
 			files = (
 				0E2F03DC1C1B448F00B7913C /* SignUpViewController.swift in Sources */,
 				0EBAF9BD1C18AA26004248DE /* ViewController.swift in Sources */,
+				F46542A81C212AB800734365 /* SwipingViewController.swift in Sources */,
 				0EBAF9BB1C18AA26004248DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
