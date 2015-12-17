@@ -15,7 +15,7 @@ import ParseFacebookUtilsV4
 class ViewController: UIViewController {
     
     @IBAction func signIn(sender: AnyObject) {
-        let permissions = ["public_profile"]
+        let permissions = ["public_profile", "email"]
         
         PFFacebookUtils.logInInBackgroundWithReadPermissions(permissions) { (user, error) -> Void in
                 if let error = error {

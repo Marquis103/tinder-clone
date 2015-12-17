@@ -24,11 +24,27 @@ class SwipingViewController: UIViewController {
         userImage.addGestureRecognizer(pan)
         userImage.userInteractionEnabled = true
         
+        PFGeoPoint.geoPointForCurrentLocationInBackground { (geopoint, error) -> Void in
+            if error != nil {
+                print(error)
+            } else {
+                if let geopoint = geopoint {
+                    PFUser.currentUser()?["location"] = geopoint
+                    PFUser.currentUser()?.saveInBackground()
+                }
+            }
+        }
+        
         getNextUserImage()
     }
     
     func getNextUserImage() {
         let query = PFUser.query()
+        
+        if let latitude = PFUser.currentUser()?["location"]?.latitude, let longitude = PFUser.currentUser()?["location"]?.longitude {
+                query?.whereKey("location", withinGeoBoxFromSouthwest: PFGeoPoint(latitude: latitude - 1, longitude: longitude - 1), toNortheast: PFGeoPoint(latitude: latitude + 1, longitude: longitude + 1))
+                                                                                                                                                                                                                                                                 
+        }
         
         var interestedIn = "male"
         
@@ -132,6 +148,12 @@ class SwipingViewController: UIViewController {
         if segue.identifier == "logOut" {
             PFUser.logOut()
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        /*if segue.identifier == "logOut" {
+            PFUser.logOut()
+        }*/
     }
 
 }

@@ -26,7 +26,7 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         
         //get facebook details
-        let graph = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"id, name, gender"])
+        let graph = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"id, name, gender, email"])
         graph.startWithCompletionHandler { (connection, result, error) -> Void in
             if error != nil {
                 print(error)
@@ -34,7 +34,7 @@ class SignUpViewController: UIViewController {
                 print(result)
                 PFUser.currentUser()?["gender"] = result["gender"]
                 PFUser.currentUser()?["name"] = result["name"]
-                
+                PFUser.currentUser()?["email"] = result["email"]
                 PFUser.currentUser()?.saveInBackground()
                 
                 let userId = result["id"] as! String
